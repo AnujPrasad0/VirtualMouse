@@ -123,7 +123,7 @@ main section .para p {
 }
 main section .para .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 main section .para .buttons button {
   all: unset;
