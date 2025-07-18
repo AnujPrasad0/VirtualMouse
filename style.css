@@ -147,6 +147,7 @@ main section .para .buttons a button {
 }
 main section .para .buttons a button:hover {
   background-position: left bottom;
+  scale: 1.1;
 }
 main section .photo {
   width: 50%;
@@ -156,6 +157,10 @@ main section .photo div {
   position: absolute;
   border-radius: 50%;
   background-color: #77e4df;
+  z-index: 3;
+}
+main section .photo div:hover {
+  scale: 1.5;
 }
 main section .photo div:nth-child(1) {
   height: 3.8rem;
@@ -201,6 +206,7 @@ main section .photo img {
   width: 96%;
   bottom: 0px;
   border-radius: 0 0 0 400px;
+  z-index: 2;
 }
 
 .active::before {

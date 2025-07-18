@@ -166,6 +166,7 @@ main {
 
           button:hover {
             background-position: left bottom;
+            scale: 1.1;
           }
         }
       }
@@ -179,6 +180,11 @@ main {
         position: absolute;
         border-radius: 50%;
         background-color: #77e4df;
+        z-index: 3;
+
+        &:hover {
+          scale: 1.5;
+        }
       }
 
       div:nth-child(1) {
@@ -231,6 +237,7 @@ main {
         width: 96%;
         bottom: 0px;
         border-radius: 0 0 0 400px;
+        z-index: 2;
       }
     }
   }
